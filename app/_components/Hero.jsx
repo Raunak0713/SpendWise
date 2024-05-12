@@ -28,7 +28,7 @@ function Hero() {
               className="block w-full rounded-lg bg-primary px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
               href={isSignedIn ? '/dashboard' : '/sign-in'}
             >
-              Get Started
+              {isSignedIn ? 'Continue to Dashboard' : 'Get Started'}
             </a>
           </div>
         </div>
