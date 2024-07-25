@@ -3,6 +3,6 @@ export default {
     driver: 'pg',
     dialect: 'postgresql',
     dbCredentials: {
-      url : 'postgresql://expense-tracker_owner:jnWys5VPq8NY@ep-muddy-butterfly-a591mgvk.us-east-2.aws.neon.tech/expense-tracker?sslmode=require',
+      url : 'postgresql://spendwise_owner:Ba8lKwzH4WGO@ep-delicate-cloud-a5dsyudq.us-east-2.aws.neon.tech/spendwise?sslmode=require',
     }
 };
